@@ -34,8 +34,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
+let humor = 'funny';
+let personality = 'mean';
+if(personality === 'mean'){
+  humor = 'not funny';
+}
+console.log(humor);
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -46,7 +50,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let string = '1999';
+console.log(Number(string));
 
 
 
